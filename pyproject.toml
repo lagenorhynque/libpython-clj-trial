@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "libpython-clj-trial"
+version = "0.1.0"
+description = ""
+authors = ["Kent OHASHI <ignorantia.juris.non.excusa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.5"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+matplotlib = "^3.8.0"
+scikit-learn = "^1.3.1"
+
+[tool.poetry.group.dev.dependencies]
+python-lsp-server = "^1.8.0"
+flake8 = "^6.1.0"
+black = "^23.9.1"
+autoflake = "^2.2.1"
+ptvsd = "^4.3.2"
+pyls-mypy = "^0.1.8"
+pyls-isort = "^0.2.2"
+pyls-black = "^0.4.7"
+importmagic = "^0.1.7"
+epc = "^0.0.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
