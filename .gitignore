@@ -27,3 +27,4 @@
 /target
 resources/
 !resources/.keep
+dev/src/local.clj
