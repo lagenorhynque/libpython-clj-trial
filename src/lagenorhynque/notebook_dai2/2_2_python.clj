@@ -1,4 +1,8 @@
 (ns lagenorhynque.notebook-dai2.2-2-python
+  "『Pythonによるあたらしいデータ分析の教科書 第2版』
+  https://www.shoeisha.co.jp/book/detail/9784798178776
+  Chapter2 Pythonと環境
+  2.2 Pythonの基礎"
   (:require
    [clojure.java.io :as io]
    [clojure.string :as str]
